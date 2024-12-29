@@ -25,4 +25,10 @@ Gazeboの起動 ※ gazebo/setup.sh がないとだめ
 $ export TURTLEBOT3_MODEL=burger
 $ . /opt/ros/humble/setup.bash
 $ . /usr/share/gazebo/setup.sh
+$ export TURTLEBOT3_MODEL=waffle
+$ ros2 launch turtlebot3_gazebo empty_world.launch.py
+
+# 別端末
+$ export TURTLEBOT3_MODEL=waffle
+$ ros2 run turtlebot3_teleop teleop_keyboard
 ```
