@@ -6,8 +6,9 @@ $ sudo apt-get install ros-humble-gazebo-* \
 ros-humble-cartographer \
 ros-humble-cartographer-ros \
 ros-humble-navigation2 \
-ros-humble-nav2-bringup \
-ros-humble-dynamixel-sdk \
+ros-humble-nav2-bringup
+
+$ sudo apt-get remove ros-humble-dynamixel-sdk \
 ros-humble-turtlebot3-msgs \
 ros-humble-turtlebot3
 ```
@@ -16,7 +17,7 @@ TurtleBot3 Simulation
 ```bash
 $ mkdir -p turtlebot3_ws/src
 $ cd turtlebot3_ws
-$ git clone -b humble-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git src/turtlebot3_simulations
+$ git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git src/turtlebot3_simulations -b humble-devel 
 $ colcon build --symlink-install
 ```
 
