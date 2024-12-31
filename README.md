@@ -6,6 +6,7 @@ Link
 - https://docs.ros2.org/latest/api/rclcpp/index.html
 - https://docs.ros2.org/latest/api/rclpy/index.html
 - https://github.com/gabrielnhn/ros2-line-follower
+- https://www.originbot.org/en/application/deeplearning_line_follower/
 
 Gazebo Turtlebot3
 ```bash
