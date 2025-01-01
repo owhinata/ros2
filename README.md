@@ -7,6 +7,7 @@ Link
 - https://docs.ros2.org/latest/api/rclpy/index.html
 - https://github.com/gabrielnhn/ros2-line-follower
 - https://www.originbot.org/en/application/deeplearning_line_follower/
+- https://github.com/MM-X/self-driving-car
 
 Gazebo Turtlebot3
 ```bash
